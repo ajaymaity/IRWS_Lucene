@@ -1,0 +1,4 @@
+>> Experiment with different analyzers
+>> Why hits per page is 40? Because query 157 has the highest relevant documents = 36, and total = 40
+>> Add comments to program
+>> Add README.md
