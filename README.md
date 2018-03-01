@@ -6,14 +6,14 @@ To execute this file, run the following command:<br/>
 ```java -jar Indexer.jar```
 
 Command line arguments can also be passed as follows. Run ```java -jar Indexer.jar --help```.<br/>
- -a,--analyzer <arg>     Lucene Analyzer. One of English, Keyword, Simple,<br/>
-                         Standard, Stop, WhiteSpace.<br/>
- -d,--data <arg>         Directory where Cran data is present.<br/>
- -h,--help               Show help.<br/>
- -p,--hpp <arg>          Hits Per Page. Can be any positive non-zero<br/>
-                         integer.<br/>
- -s,--similarity <arg>   Lucene Similarity. One of BM25, TFIDF,<br/>
-                         LMDirichlet.<br/>
+_-a,--analyzer <arg>_____Lucene Analyzer. One of English, Keyword, Simple,<br/>
+_________________________Standard, Stop, WhiteSpace.<br/>
+_-d,--data <arg>_________Directory where Cran data is present.<br/>
+_-h,--help_______________Show help.<br/>
+_-p,--hpp <arg>__________Hits Per Page. Can be any positive non-zero<br/>
+_________________________integer.<br/>
+_-s,--similarity <arg>___Lucene Similarity. One of BM25, TFIDF,<br/>
+_________________________LMDirichlet.<br/>
 
 One example:<br/>
 ```java -jar Indexer.jar --analyzer Standard --similarity TFIDF --hpp 40 --data data/cran.tar```
